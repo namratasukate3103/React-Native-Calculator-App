@@ -8,9 +8,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "expo": "^38.0.0",
-    "react": "16.11.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz"
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
+    "@babel/plugin-transform-optional-chaining": "^7.25.9",
+    "@types/react": "18.3.18",
+    "expo": "^52.0.23",
+    "glob": "^11.0.0",
+    "hermes-engine": "^0.11.0",
+    "lru-cache": "^11.0.2",
+    "metro": "^0.81.0",
+    "metro-cache": "^0.81.0",
+    "metro-config": "^0.81.0",
+    "metro-core": "^0.81.0",
+    "react": "18.3.1",
+    "react-native": "^0.76.5",
+    "rimraf": "^6.0.1",
+    "shell-quote": "^1.8.2"
   },
   "devDependencies": {
     "babel-preset-expo": "^8.2.3",
